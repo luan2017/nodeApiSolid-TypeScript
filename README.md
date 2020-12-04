@@ -4,11 +4,11 @@
 
 ### Comands to compile:
 - yarn 
-- yarn dev
+- yarn start
 
 ### Commands to start the project from 0:
 - yarn init -y
 - yarn add express
-- yarn add typescript ts-node -D
+- yarn add typescript ts-node-dev -D
 - yarn tsc --init
 - yarn add @types/express -D
