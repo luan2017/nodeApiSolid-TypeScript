@@ -17,7 +17,7 @@ export class CreateUserController {
               password
           })
 
-        return response.status(201).send().json('Email enviado com Sucesso!');
+        return response.status(201).json('Email enviado com Sucesso!');
       } catch (err) {
           return response.status(400).json({
               message: err.message || 'Unexpected error.'
